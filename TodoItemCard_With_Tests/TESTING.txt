@@ -1,0 +1,17 @@
+TodoItemCard — testing
+
+Unit tests (Vitest):
+  npm run test        watch mode
+  npm run test:run    single run (CI)
+
+End-to-end (Cypress, dev server on port 5173):
+  One command (starts Vite + runs Cypress, then stops the server):
+    npm run cypress:ci
+
+  Two terminals (if cypress:ci fails because port 5173 is busy, stop other Vite/dev servers first):
+    Terminal 1: npm run dev
+    Terminal 2: npm run cypress:run
+
+  Interactive Cypress UI:
+    npm run dev
+    npm run cypress:open
