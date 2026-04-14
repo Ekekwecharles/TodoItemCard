@@ -84,4 +84,4 @@ npm run cypress:ci
 
 `TodoItemCard_With_Tests` will be deployed on Vercel.
 
-Vercel URL: `<add-after-deploy>`
+Vercel URL: [View Live Project](https://todo-item-card-skm7.vercel.app/)
